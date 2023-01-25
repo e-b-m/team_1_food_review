@@ -38,7 +38,7 @@ We used two one-to-many relationships, so one user to many reviews and one food 
 ### MVC ###
 <img width="1408" alt="Screenshot 2022-12-15 at 11 48 20" src="https://user-images.githubusercontent.com/60015635/207851793-3c86a793-c404-40dd-8f59-5b2cb67d0172.png">
 
-## Extensions ##
+## Completed Extensions ##
 
 - Delete review method in User and Review (to allow moderators to also delete inappropriate reviews).
 - Average rating method in FoodPlace class.
@@ -111,7 +111,7 @@ Here is the code from the Review Controller.
         return new ResponseEntity<>(reviews, HttpStatus.OK);
     }`
     
-   ## Further Extensions ##
+   ## Further Incomplete Extensions ##
 - Making the food types a list in case a food place had more than one food type e.g. a buffet restaurant could have Mexican, Chinese and Thai food. 
 - Adding a list of food items to each food place. 
 - Google maps - making our API compatible with Google maps to help with the front-end. 
