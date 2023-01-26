@@ -101,11 +101,13 @@ FoodPlace: {
     "website": "TacoBell.com"
 }
 ```
-
+```js 
 User: {
     "name": "oogway"
 }
+```
 
+```js 
 Review: {
     "rating": 5.0,
     "reviewText": "The food was very amazing.",
@@ -113,7 +115,7 @@ Review: {
     "userId": 1,
     "foodPlaceId": 1
 }
-
+```
 ## Testing ##
 We decided to test all our routes in Postman and Postico.
 
