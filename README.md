@@ -92,6 +92,7 @@ localhost:8080...
 
 ## Example Objects ##
 Below are examples of the objects in Json form.
+```js 
 FoodPlace: {
     "name" : "TacoBell",
     "foodType" : "Mexican",
@@ -99,6 +100,7 @@ FoodPlace: {
     "closingHour": "16:00:00",
     "website": "TacoBell.com"
 }
+```
 
 User: {
     "name": "oogway"
