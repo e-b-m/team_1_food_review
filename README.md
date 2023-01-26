@@ -90,6 +90,28 @@ localhost:8080...
 
 
 
+## Example Objects ##
+Below are examples of the objects in Json form.
+FoodPlace: {
+    "name" : "TacoBell",
+    "foodType" : "Mexican",
+    "openingHour": "09:00:00",
+    "closingHour": "16:00:00",
+    "website": "TacoBell.com"
+}
+
+User: {
+    "name": "oogway"
+}
+
+Review: {
+    "rating": 5.0,
+    "reviewText": "The food was very amazing.",
+    "date": "2022-10-06",
+    "userId": 1,
+    "foodPlaceId": 1
+}
+
 ## Testing ##
 We decided to test all our routes in Postman and Postico.
 
