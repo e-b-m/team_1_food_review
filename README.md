@@ -64,29 +64,29 @@ TO copy our git repo, please follow the instructions below:
 localhost:8080...
 |HTTP Request Path             |Request Type|                  Description            |
 |:----------------------------:|:-----------|:----------------------------------------|
-|.../user                      |GET         | Display all users                       |
-|.../user/1                    |GET         | Find user by id                         |
-|.../user/username?name=Zsolt  |GET         | Find user by name                       |
+|.../user                      |GET         |Display all users                        |
+|.../user                      |POST        |Add a new user                           |
+|.../user/1                    |GET         |Find user by id                          |
+|.../user/1                    |PUT         |Update user                              |
+|.../user/1                    |DELETE      |Delete user                              |
 |.../user/1/reviews            |GET         |Get all reviews from the user by their id|
 |.../user/1/foodplace          |GET         |Get food places from user                |
-|.../user                      |POST        |Add a new user                           |
-|.../user/1                    |DELETE      |Delete user                              |
-|.../user/1                    |PUT         |Update user                              |
+|.../user/username?name=Zsolt  |GET         |Find user by name                        |
 |.../foodplace                 |GET         |Display all food places                  |
+|.../foodplace                 |POST        |Add a new food place                     |
 |.../foodplace/1               |GET         |Find food place by id                    |
+|.../foodplace/1               |PUT         |Update food place                        |
+|.../foodplace/1               |DELETE      |Remove a food place                      |
+|.../foodplace/1/reviews       |GET         |Get all reviews from a food place        |
+|.../foodplace/1/average_rating|GET         |Get average rating of a food place       |
 |.../foodplace/name?name=Amigos          |GET         |Find food place by name                  |
 |.../foodplace/foodtype?foodType=Japanese|GET         |Filter food places by food type          |
 |.../foodplace/random          |GET         |Find a random food place                 |
-|.../foodplace/1/reviews       |GET         |Get all reviews from a food place        |
-|.../foodplace/1/average_rating|GET         |Get average rating of a food place       |
-|.../foodplace                 |POST        | Add a new food place                    |
-|.../foodplace/1               |DELETE      |Remove a food place                      |
-|.../foodplace/1               |PUT         |Update food place                        |
 |.../review                    |GET         |Display all reviews                      |
-|.../review/1                  |GET         |Find review by id                        |
 |.../review                    |POST        |Add a new review                         |
+|.../review/1                  |GET         |Find review by id                        |
+|.../review/1                  |PUT         |Update a review                          |
 |.../review/1                  |DELETE      |Remove a review                          |
-|.../review/1                  |UPDATE      |Update a review                          |
 
 
 
