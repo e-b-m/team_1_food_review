@@ -62,31 +62,31 @@ TO copy our git repo, please follow the instructions below:
 
 ## Routes ##
 localhost:8080...
-|HTTP Request Path             |Request Type|                  Description            |
-|:----------------------------:|:-----------|:----------------------------------------|
-|.../user                      |GET         |Display all users                        |
-|.../user                      |POST        |Add a new user                           |
-|.../user/1                    |GET         |Find user by id                          |
-|.../user/1                    |PUT         |Update user                              |
-|.../user/1                    |DELETE      |Delete user                              |
-|.../user/1/reviews            |GET         |Get all reviews from the user by their id|
-|.../user/1/foodplace          |GET         |Get food places from user                |
-|.../user/username?name=Zsolt  |GET         |Find user by name                        |
-|.../foodplace                 |GET         |Display all food places                  |
-|.../foodplace                 |POST        |Add a new food place                     |
-|.../foodplace/1               |GET         |Find food place by id                    |
-|.../foodplace/1               |PUT         |Update food place                        |
-|.../foodplace/1               |DELETE      |Remove a food place                      |
-|.../foodplace/1/reviews       |GET         |Get all reviews from a food place        |
-|.../foodplace/1/average_rating|GET         |Get average rating of a food place       |
-|.../foodplace/name?name=Amigos          |GET         |Find food place by name                  |
-|.../foodplace/foodtype?foodType=Japanese|GET         |Filter food places by food type          |
-|.../foodplace/random          |GET         |Find a random food place                 |
-|.../review                    |GET         |Display all reviews                      |
-|.../review                    |POST        |Add a new review                         |
-|.../review/1                  |GET         |Find review by id                        |
-|.../review/1                  |PUT         |Update a review                          |
-|.../review/1                  |DELETE      |Remove a review                          |
+|Request Type                  |HTTP Request Path                        | Description                                  |
+|:----------------------------:|:----------------------------------------|:---------------------------------------------|
+|GET                           |.../user                                 |Display all users                             |
+|POST                          |.../user                                 |Add a new user                                |
+|GET                           |.../user/1                               |Find user by id                               |
+|PUT                           |.../user/1                               |Update user                                   |
+|DELETE                        |.../user/1                               | Delete user                                  |         
+|GET                           |.../user/1/reviews                       |Get all reviews from the user by their id     |
+|GET                           |.../user/1/foodplace                     |Get food places from user                     |
+|GET                           |.../user/username?name=Zsolt             |Find user by name                             |
+|GET                           |.../foodplace                            |Display all food places                       |
+|POST                          |.../foodplace                            |Add a new food place                          |
+|GET                           |.../foodplace/1                          |Find food place by id                         |
+|PUT                           |.../foodplace/1                          |Update food place                             |
+|DELETE                        |.../foodplace/1                          |Remove a food place                           |
+|GET                           |.../foodplace/1/reviews                  |Get all reviews from a food place             |
+|GET                           |.../foodplace/1/average_rating           |Get average rating of a food place            |
+|GET                           |.../foodplace/name?name=Amigos           |Find food place by name                       |
+|GET.                          |.../foodplace/foodtype?foodType=Japanese |Filter food places by food type               |
+|GET                           |.../foodplace/random                     |Find a random food place                      |
+|GET                           |.../review                               |Display all reviews                           |
+|POST                          |.../review                               |Add a new review                              |
+|GET                           |.../review/1                             |Find review by id                             |
+|PUT                           |.../review/1                             |Update a review                               |
+|DELETE                        |.../review/1                             |Remove a review                               |
 
 
 
